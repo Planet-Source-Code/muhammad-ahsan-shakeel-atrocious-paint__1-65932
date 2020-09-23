@@ -1,0 +1,10 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+LCID=0x409 0x0 0x0 ; English (United States)
+REPORT=Yes
+COPYRIGHT=1.0.0
+HLP=Help.hlp
+
+[FILES]
+Help.rtf

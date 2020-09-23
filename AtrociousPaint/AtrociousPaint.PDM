@@ -1,0 +1,113 @@
+[Root]
+Most Recent Package=Setup
+
+
+[Package|Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VisualBasic Source Codes\AtrociousPaint\Setup
+
+[Package|Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup|Files Found]
+
+[Package|Setup|Files Released]
+
+[Package|Setup|Missing Dependency Information]
+
+[Package|Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Setup|Files Added]
+D:\VisualBasic Source Codes\AtrociousPaint\APaintR.dll=
+D:\VisualBasic Source Codes\AtrociousPaint\AtrociousPaint.ico=
+
+[Package|Setup|Files Removed]
+
+[Package|Setup|Files In Project]
+D:\VisualBasic Source Codes\AtrociousPaint\AtrociousPaint.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\VisualBasic Source Codes\AtrociousPaint\HELP.HLP=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VisualBasic Source Codes\AtrociousPaint\APaintR.dll=Yes
+D:\VisualBasic Source Codes\AtrociousPaint\AtrociousPaint.ico=Yes
+
+[Package|Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup|Install Locations]
+D:\VisualBasic Source Codes\AtrociousPaint\AtrociousPaint.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\VisualBasic Source Codes\AtrociousPaint\HELP.HLP=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VisualBasic Source Codes\AtrociousPaint\APaintR.dll=$(AppPath)
+D:\VisualBasic Source Codes\AtrociousPaint\AtrociousPaint.ico=$(AppPath)
+
+[Package|Setup|Configure Shared Files]
+Applicable=Yes
+D:\VisualBasic Source Codes\AtrociousPaint\AtrociousPaint.exe=No
+D:\VisualBasic Source Codes\AtrociousPaint\HELP.HLP=No
+D:\VisualBasic Source Codes\AtrociousPaint\APaintR.dll=No
+D:\VisualBasic Source Codes\AtrociousPaint\AtrociousPaint.ico=No
+
+[Package|Setup|Distribution]
+Type=single
+Size=
+Title=AtrociousPaint
+
+[Package|Setup|IconGroups]
+Group0=AtrociousSoftwares
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup|AtrociousSoftwares]
+Icon1=AtrociousPaint.exe
+Title1=AtrociousPaint
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=HELP.HLP
+Title2=Help
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|Setup|Package]
+PackageFolder=D:\VisualBasic Source Codes\AtrociousPaint\Setup
+ProjectFolder=D:\VisualBasic Source Codes\AtrociousPaint
+ServerSideCab=
+File1=D:\VisualBasic Source Codes\AtrociousPaint\Setup\setup.exe
+File2=D:\VisualBasic Source Codes\AtrociousPaint\Setup\Setup.Lst
+File3=D:\VisualBasic Source Codes\AtrociousPaint\Setup\AtrociousPaint.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
